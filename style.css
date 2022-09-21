@@ -1,0 +1,235 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.top-nav {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  background-image: url(images/IMG_2989.JPG);
+  background-position: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.secA {
+  display: flex;
+  flex-direction: row;
+  margin: 0% 35%;
+}
+.comp-logo {
+  width: 33%;
+}
+.cartnsearch {
+  width: 33%;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  background-color: transparent;
+}
+.dropbtn {
+  cursor: pointer;
+  color: black;
+  padding: 3%;
+  font-size: 1rem;
+  background-color: #e68557;
+  border: none;
+}
+.dropdown-content {
+  background-color: gray;
+  width: 100%;
+  overflow: auto;
+  position: absolute;
+  display: none;
+}
+.dropdown-content a {
+  color: white;
+  z-index: 1;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 1.5rem;
+}
+.show {
+  display: block;
+}
+body img {
+  width: 100%;
+  height: auto;
+}
+body {
+  background-color: #dad3bd;
+}
+.page2 {
+  padding: 5%;
+}
+h1 {
+  padding-top: 12%;
+  padding-bottom: 5%;
+  font-size: 2.5rem;
+  font-family: great vibes;
+}
+.topic-nav {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5%;
+}
+.pro-pic {
+  width: 25%;
+  height: auto;
+  padding-top: 3%;
+}
+.pro-pic img {
+  border-radius: 70px;
+  height: auto;
+  padding: 5%;
+}
+.name-title {
+  width: 75%;
+  padding: 5%;
+}
+.page2 p {
+  font-size: 1.5rem;
+}
+.sec-img {
+  margin-top: 25%;
+}
+.gallery {
+  background-color: #222023;
+  color: #e4dfd1;
+  border: 1px solid red;
+  padding: 7%;
+}
+.gallery h2 {
+  padding-top: 15%;
+  text-align: center;
+  font-size: 3rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-bottom: 7%;
+}
+.gallery p {
+  text-align: center;
+  font-size: 1.1rem;
+  margin-bottom: 12%;
+}
+.gall-nav ol {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-bottom: 8%;
+}
+.gall-nav li {
+  width: 20%;
+  border: 1px solid rgb(60, 57, 57);
+  list-style-type: none;
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+.gall-nav li a {
+  text-decoration: none;
+  color: #e4dfd1;
+}
+.sectionA {
+  display: flex;
+  flex-direction: column;
+}
+.sectionB {
+  display: flex;
+  flex-direction: column;
+}
+.page3 {
+  padding: 5%;
+  text-align: center;
+  background-color: white;
+}
+.page3 h2 {
+  margin: 7%;
+  margin-bottom: 5%;
+  font-size: 3rem;
+}
+.page3 p {
+  font-size: 1.1rem;
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.parts p {
+  margin: 0% 10%;
+  margin-bottom: 5%;
+}
+span {
+  color: #e68557;
+}
+.part-img {
+  margin: 2% 25%;
+  margin-top: 10%;
+}
+.page4 {
+  background-color: #222023;
+  color: white;
+  padding: 5%;
+}
+.page4 h3 {
+  padding: 15% 5%;
+  font-size: 3rem;
+  text-align: center;
+  color: white;
+}
+.food {
+  margin: 7% 0%;
+}
+.food dt {
+  font-size: 1.7rem;
+  padding: 3% 0% 1% 0%;
+}
+.food dd {
+  text-transform: lowercase;
+}
+.page4 button {
+  background-color: #e68557;
+  padding: 5%;
+  color: white;
+  font-size: 1.2rem;
+  margin: 5% 15%;
+  text-transform: uppercase;
+}
+.page5 {
+  background-color: white;
+  padding: 5%;
+}
+.page5 h3 {
+  text-align: center;
+  font-size: 3rem;
+  padding: 10% 3% 7% 3%;
+}
+.page5 input,
+textarea {
+  display: block;
+  padding: 3%;
+  margin: 2%;
+}
+.page5 button {
+  padding: 3%;
+  background-color: #eceff0;
+  border: none;
+  margin-left: 10%;
+}
+.page6 {
+  background-color: #222023;
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+  color: #868288;
+}
+.page6 p {
+  padding: 1%;
+}
+.page6 div {
+  margin-top: 4%;
+}
