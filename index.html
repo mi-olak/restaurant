@@ -29,37 +29,40 @@
                 <button onclick="myFunction()" class="dropbtn">MENU</button>
                 <div id="myDropdown" class="dropdown-content">
                     <a href="#">Home</a>
-                    <a href="#">About Us</a>
-                    <a href="#">Blog</a>
-                    <a href="#">Menu</a>
-                    <a href="#">Shop</a>
+                    <a href="#about">About Us</a>
+                    <a href="#gall">Gallery</a>
+                    <a href="#men">Menu</a>
+                    <a href="#servic">Services</a>
+                    <a href="#contactus">Contact Us</a>
                 </div>
             </div>
         </div>
 
     </div>
-    <img src="images/chocolate.jpeg" alt="a choco cake">
-
-    <div class="page2">
-        <h1><span>About</span> Our Chefs</h1>
-        <div class="topic-nav">
-            <div class="pro-pic">
-                <img src="images/female chef.jpg" alt="profile-pic">
+    <img class="images" src="images/chocolate.jpeg" alt="a choco cake">
+    <div class="sections">
+        <div id="about" class="page2">
+            <h1><span>About</span> Our Chefs</h1>
+            <div class="topic-nav">
+                <div class="pro-pic">
+                    <img src="images/female chef.jpg" alt="profile-pic">
+                </div>
+                <div class="name-title">
+                    <h3>Firstname Lastname</h3>
+                    <p><span>Executive Chef</span></p>
+                </div>
             </div>
-            <div class="name-title">
-                <h3>Firstname Lastname</h3>
-                <p><span>Executive Chef</span></p>
-            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim beatae suscipit, illum voluptate ex maiores
+                iste iure quibusdam minima itaque ab nemo vel, fugit, voluptatum id possimus quod molestias? Mollitia.
+            </p>
         </div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim beatae suscipit, illum voluptate ex maiores
-            iste iure quibusdam minima itaque ab nemo vel, fugit, voluptatum id possimus quod molestias? Mollitia.</p>
+
+        <div class="sec-img">
+            <img src="images/black chef.jpg" alt="a chef">
+        </div>
     </div>
 
-    <div class="sec-img">
-        <img src="images/black chef.jpg" alt="a chef">
-    </div>
-
-    <div class="gallery">
+    <div id="gall" class="gallery">
         <h2><span>Our</span> Gallery</h2>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae facilis repellendus, natus eos error dolorem
             possimus amet, dolorum in cumque corrupti exercitationem facere ad, harum ullam accusamus qui tenetur
@@ -93,7 +96,7 @@
         </div>
     </div>
 
-    <div class="page3">
+    <div id="servic" class="page3">
         <h2><span>Our</span> Services</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, laudantium id nihil repellat vitae
             perferendis ducimus accusantium blanditiis</p>
@@ -129,9 +132,9 @@
         </div>
     </div>
 
-    <div class="page4">
+    <div id="men" class="page4">
         <h3> <span>Our</span> Breakfast</h3>
-        <dl>
+        <dl class="total">
             <div class="left-side">
                 <div class="food">
                     <dt>Eggs Any Style</dt>
@@ -182,7 +185,7 @@
 
         <button>view details</button>
     </div>
-    <div class="page5">
+    <div id="contactus" class="page5">
         <h3><span>Contact</span> Us</h3>
         <input type="text" placeholder="Name*">
         <input type="text" placeholder="E-mail*">
